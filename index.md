@@ -1,3 +1,3 @@
 # Christopher D Breaux
-<embed src="ChristopherDBreauxResume.pdf#view=FitH" type="application/pdf">
+<embed src="ChristopherDBreauxResume.pdf" type="application/pdf" width="100%" height="100%">
 
