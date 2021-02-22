@@ -4,6 +4,3 @@
 
 [![](ChristopherDBreauxResume.png)](https://github.com/ChristopherDBreaux/ChristopherDBreaux.github.io/blob/master/ChristopherDBreauxResume.pdf)
 
-
-[embed]ChristopherDBreauxResume.pdf[/embed]
-
