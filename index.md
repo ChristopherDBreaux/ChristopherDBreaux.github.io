@@ -1,5 +1,5 @@
 # Christopher D Breaux
-[<embed src="ChristopherDBreauxResume.pdf" type="application/pdf" width="400px" height="600px">](https://github.com/ChristopherDBreaux/ChristopherDBreaux.github.io/blob/master/ChristopherDBreauxResume.pdf)
+<embed src="ChristopherDBreauxResume.pdf#view=FitH" type="application/pdf">
 
 
 [![](ChristopherDBreauxResume.png)](https://github.com/ChristopherDBreaux/ChristopherDBreaux.github.io/blob/master/ChristopherDBreauxResume.pdf)
