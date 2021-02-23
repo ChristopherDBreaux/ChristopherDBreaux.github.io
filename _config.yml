@@ -172,8 +172,6 @@ links:
 
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
-extra_html: >
-    <embed src="attachments/ChristopherDBreauxResume.pdf" width="90%" height="90%" 
- type="application/pdf">
+extra_html: <embed src="attachments/ChristopherDBreauxResume.pdf" width="90%" height="90%" type="application/pdf">
 
 #EOF
