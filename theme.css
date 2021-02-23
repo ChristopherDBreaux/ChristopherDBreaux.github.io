@@ -1,5 +1,5 @@
 body {
-  background-image: attachments/cactus.jpg;
+  background-image: url(attachments/cactus.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
