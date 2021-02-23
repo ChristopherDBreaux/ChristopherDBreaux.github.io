@@ -3,4 +3,4 @@
 
 # Resume
 <object type="application/pdf" data="ChristopherDBreauxResume.pdf" width="100%" height="100%">
-<parm name="view" value="FitH" /></object>
+<parm name="view" value="FitV" /></object>
