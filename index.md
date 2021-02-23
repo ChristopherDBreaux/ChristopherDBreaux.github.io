@@ -1,4 +1,3 @@
-title: ChristopherDBreaux.github.io
 <p align="center">
   <embed src="attachments/profile%20crop.jpg" width="80%" height="80%">
 </p>
