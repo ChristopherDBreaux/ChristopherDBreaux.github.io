@@ -42,16 +42,16 @@ baseurl: '/fuse-core'
 # https://support.google.com/analytics/answer/2763052
 #ga:
 ga:
-    account: 'UA-120960520-1'
-    cookieconsent: true
+    account: ''
+    cookieconsent: false
     anonymizeip: true
 
 
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "https://avatars0.githubusercontent.com/u/8897534"
-#avatar: "images/jonathan_doe.jpg"
+avatar: "https://avatars.githubusercontent.com/u/79477526?s=460&u=b27c43a80526426a0e055c59f403b2adfdba2d7d&v=4"
+#avatar: "images/profile%20crop.jpg"
 #avatar:
 
 
@@ -75,12 +75,12 @@ links:
       icon: fab fa-google-plus
   - twitter:
       name: Twitter
-      show: true
+      show: false
       href: https://twitter.com/YOUR_TWITTER_USERNAME
       icon: fab fa-twitter
   - weibo:
       name: 微博
-      show: true
+      show: false
       href: https://weibo.com/YOUR_WEIBO_USERNAME
       icon: fab fa-weibo
   - vine:
@@ -95,7 +95,7 @@ links:
       icon: fab fa-facebook
   - vkontakte:
       name: ВКонтакте
-      show: true
+      show: false
       href: https://vk.com/YOUR_VK_USERNAME
       icon: fab fa-vk
   - instagram:
@@ -155,17 +155,17 @@ links:
       icon: fab fa-tumblr
   - blog:
       name: Blog
-      show: true
+      show: false
       href: http://host.domain/your_blog
       icon: fas fa-book-open
   - email:
       name: Email
       show: true
-      href: mailto:jonathan.doe@host.domain
+      href: mailto:christopher.d.breaux@gmail.com
       icon: fas fa-envelope
   - publickey:
       name: PGP Key
-      show: true
+      show: false
       href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
       icon: fas fa-key
 
@@ -173,7 +173,7 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Any (multiline) text containing simple HTML,
-    such as links or ... lorem ipsum.
+    <embed src="attachments/.pdf" width="500" height="375" 
+ type="application/pdf">
 
 #EOF
