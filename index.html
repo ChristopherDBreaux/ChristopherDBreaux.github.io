@@ -1,3 +1,4 @@
+<html>
 <style>
   .background{
     font-family:Arial;
@@ -7,8 +8,6 @@
   }
   .header{
   background-color: rgba(0, 0, 0, 0.75);
-  font-size: 2px
-  
   }
   .headrow{
     width: 100%;
@@ -24,10 +23,15 @@
     float: left;
     width: 50%
   }
-  .headicon{
-  width: 12px;
+  .headtext{
+    color: white;
+    font-size: 8px;
+    text-decoration: none
   }
-  
+  .headicon{
+  width: 16px;
+  }
+
   .linkrow{
     width: 80%;
     max-width: 800px;
@@ -60,13 +64,13 @@
 <head class=header>
   <div class=headrow>
     <div class=headcolumn>
-      <p align="left" style="color:white">
-        <embed src="attachments/phone.png" class=headicon> <a href="tel:205-527-9660" style="font-size: 2px; text-decoration: none">(205)527-9660</a>
+      <p align="left">
+        <embed src="attachments/phone.png" class=headicon> <a href="tel:205-527-9660" class=headtext>(205)527-9660</a>
       </p>
     </div>
     <div class=headcolumn>
-      <p align="right" style="color:white">
-        <embed src="attachments/email.png" class=headicon> <a href="mailto:christopher.d.breaux@gmail.com">christopher.d.breaux@gmail.com</a>
+      <p align="right">
+        <embed src="attachments/email.png" class=headicon> <a href="mailto:christopher.d.breaux@gmail.com" class=headtext>christopher.d.breaux@gmail.com</a>
       </p>
     </div>
   </div>
@@ -104,3 +108,4 @@
                   height: auto">
   </p>
 </body>
+</html>
