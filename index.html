@@ -84,13 +84,16 @@
     height: min(103.5vw, 1035px);
     margin:5vw 0vw 5vw 0vw;
   }
-  
-  .gallery{
+  .gallerycontainer{
     width: 90%;
+    height: 90%
     margin: 0;
     padding: 0
   }
-  .gallery:hover > .overlay {
+  .galleryimage{
+    
+  }
+  .gallerycontainer:hover > .overlay {
     width:100%;
     height:100%;
     position:absolute;
@@ -160,8 +163,10 @@
 
   <div class=galleryrow>
     <div class=gallerycolumn align="center">
-      <a href="attachments/profile%20crop.jpg"><embed src="attachments/profile%20crop.jpg" class=gallery></a>
-      <div class="overlay"></div>
+      <div class=gallerycontainer>
+        <a href="attachments/profile%20crop.jpg"><embed src="attachments/profile%20crop.jpg" class=gallery></a>
+        <div class="overlay"></div>
+      </div>
     </div>
     <div class=gallerycolumn align="center">
       <embed src="attachments/profile%20crop.jpg" class=gallery>
