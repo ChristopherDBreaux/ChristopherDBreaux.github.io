@@ -32,16 +32,14 @@
   }
 
   .profile{
-    width:60%;
-    max-width: 600px;
+    width: min(60%, 600px);
     margin:5% 0% 5% 0%;
     border-radius: 50%;
     border: 2px solid white;
   }
   
   .linkrow{
-    width: 80%;
-    max-width: 800px;
+    width: min(80%, 800px);
     margin: auto
   }
   .linkrow:after {
@@ -52,16 +50,12 @@
   .linkcolumn {
     float: left;
     width: 25%;
-    height: 8vw;
+    height: min(8vw, 80px);
     padding: 0;
   }
 
-  .link{
-    vertical-align: top;
-    padding: 0;
-  }
   .linkicon{
-    height: 8vw;
+    height: min(8vw, 80px);
     padding: 0;
   }
   .linkicon:hover{
