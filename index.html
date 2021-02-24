@@ -1,9 +1,38 @@
 
 
-<body style="font-family:Arial;
-             background-image:url('attachments/cactus.jpg');
-             background-repeat: no-repeat;
-             background-size:cover">
+<body>
+  <style>
+    {
+        font-family:Arial;
+        background-image:url('attachments/cactus.jpg');
+        background-repeat: no-repeat;
+        background-size:cover
+    }
+    /* Set additional styling options for the columns */
+    .column {
+    float: left;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 20%;
+    }
+
+    .middle {
+    width: 30%;
+    }
+    
+    .right {
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+  
   <p align="center">
     <embed src="attachments/profile%20crop.jpg";
            style="width:60%;
@@ -13,16 +42,20 @@
                   border: 2px solid white;">
   </p> 
 
-  <div class="row" style="content: "";display: table;clear: both;">
-    <div class="column" style="background-color:#FFB695;float: left;width: 50%">
+  <div class="row">
+    <div class="column left" style="background-color:#FFB695;">
       <h2>Column 1</h2>
-        <p>Data..</p>
-      </div>
-    <div class="column" style="background-color:#FFB695;float: left;width: 50%">
-      <h2>Column 2</h2>
-        <p>Data..</p>
-      </div>
+      <p>Data..</p>
     </div>
+    <div class="column middle" style="background-color:#96D1CD;">
+      <h2>Column 2</h2>
+      <p>Data..</p>
+    </div>
+    <div class="column right" style="background-color:#74C3E1;">
+      <h2>Column 3</h2>
+      <p>Data..</p>
+    </div>
+  </div>
 
   <p align="center"> 
     <a href="https://grabcad.com/chris.breaux-2">GrabCAD</a>
