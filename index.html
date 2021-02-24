@@ -1,23 +1,71 @@
+<style>
+  .background{
+      font-family:Arial;
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('attachments/cactus.jpg');
+      background-repeat: no-repeat;
+      background-size:cover
+  }
+  .column {
+    float: left;
+    width: 25%
+  }
+  
+  
+  .row{
+    width: 80%;
+    max-width: 800px;
+    margin: auto
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .profile{
+    width:60%;
+    max-width: 600px;
+    margin:10% 0% 5% 0%;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .link{
+    width: 40%;
+    margin: 30% 0% 30% 0%;
+  }
+  
+</style>
 
+<body class=background>
+  <p align="center">
+    <embed src="attachments/profile%20crop.jpg" class=profile>
+  </p> 
 
-<body style="font-family:Arial;
-             background-image:url('attachments/cactus.jpg');
-             background-size:auto 100%">
-<p align="center">
-  <embed src="attachments/profile%20crop.jpg";
-         style="width:60%;
-                margin:10% 0% 0% 0%">
-</p> 
+  <div class="row">
+    <div class="column" style="background-color:#FFB695;">
+      <img src="attachments/gmail.png" class=link>
+    </div>
+    <div class="column" style="background-color:#96D1CD;">
+      <img src="attachments/gmail.png" class=link>
+    </div>
+    <div class="column" style="background-color:#74C3E1;">
+      <img src="attachments/gmail.png" class=link>
+    </div>
+    <div class="column" style="background-color:#74C3E1;">
+      <img src="attachments/gmail.png" class=link>
+    </div>
+  </div>
 
-<p align="center">
-  Text
-</p>   
+  <p align="center"> 
+    <a href="https://grabcad.com/chris.breaux-2">GrabCAD</a>
+  </p>   
 
-<p align="center"> 
-  <a href="https://grabcad.com/chris.breaux-2">GrabCAD</a>
-</p>   
-
-<p align="center">  
-  <embed src="attachments/ChristopherDBreauxResume.pdf" width="80%" style="background-color:white">
-</p>
+  <p align="center">  
+    <embed src="attachments/ChristopherDBreauxResume.pdf"
+           style="background-color:white;
+                  width:80%;
+                  max-width:800px;
+                  height: auto">
+  </p>
 </body>
