@@ -12,12 +12,12 @@
     width: min(100vw, 1000px);
     margin: auto
   }
-  .headrow:after {
+  .headrow:after{
     content: "";
     display: table;
     clear: both;
   }
-  .headcolumn {
+  .headcolumn{
     float: left;
     height: min(4vw, 40px);
     padding: 0;
@@ -45,12 +45,12 @@
     width: min(80vw, 800px);
     margin: auto
   }
-  .linkrow:after {
+  .linkrow:after{
     content: "";
     display: table;
     clear: both;
   }
-  .linkcolumn {
+  .linkcolumn{
     float: left;
     width: 25%;
     height: min(8vw, 80px);
@@ -80,6 +80,17 @@
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('attachments/cactus.jpg');
     background-repeat: no-repeat;
     background-size:cover
+  }
+  
+  .galleryrow{
+    width: min(80vw, 800px);
+    margin: auto
+  }
+  
+  .gallerycolumn{
+    float: left;
+    width: 50%;
+    padding: 0;
   }
   
 </style>
@@ -124,7 +135,14 @@
 </div>
   
 <div class=gallery>
-  
+  <div class=galleryrow>
+    <div class=gallerycolumn>
+      <embed src="attachments/gmail.png" class=linkicon>
+    </div>
+    <div class=gallerycolumn>
+      <embed src="attachments/gmail.png" class=linkicon>
+    </div>
+  </div>
 </div>
   
 </body>
