@@ -7,6 +7,8 @@
     background-size:cover;
     background-attachment: fixed;
   }
+
+<!--  Header  -->
   .headrow{
     width: min(95vw, 950px);
     margin: auto
@@ -33,13 +35,15 @@
     padding: 0;
   }
 
+<!--  Profile  -->
   .profile{
     width: min(60vw, 600px);
     margin:min(2vw, 20px) 0vw min(2vw, 20px) 0vw;
     border-radius: 50%;
     border: 2px solid white;
   }
-  
+
+<!--  Title  -->
   .title{
     color: white;
     font-size: min(8vw, 80px);
@@ -53,7 +57,8 @@
     margin: 0vw 0vw min(2vw, 20px) 0vw;
     padding: 0;
   }
-  
+
+<!--  Links  -->
   .linkrow{
     width: min(80vw, 800px);
     margin: min(5vw, 50px) auto
@@ -77,13 +82,16 @@
   .linkicon:hover{
     background-color: rgba(0, 0, 0, 0.5);
   }  
-  
+
+<!--  Resume  -->
   .pdf{
     background-color:white;
     width: min(80vw, 800px);
     height: min(103.5vw, 1035px);
     margin:5vw 0vw 5vw 0vw;
   }
+  
+<!--  Gallery  -->
   .galleryimage{
     width: 100%;
     height: 100%;
@@ -114,10 +122,23 @@
     background-color: #008CBA;
     opacity: 0.5;
   }
+  .galleryoverlaytext{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 </style>
 
+<!--    --------    --------    BODY    --------    --------    -->
+  
 <body>
-
+<!--  Header  -->
   <div class=headrow>
     <div class=headcolumn align="left" style="width:40%">
         <embed src="attachments/phone.png" class=headicon> <a href="tel:205-527-9660" class=headtext>(205)527-9660</a>
@@ -126,10 +147,13 @@
         <embed src="attachments/email.png" class=headicon> <a href="mailto:christopher.d.breaux@gmail.com" class=headtext>christopher.d.breaux@gmail.com</a>
     </div>
   </div>
-  
+
+  <!--  Profile  -->  
   <p align="center">
     <embed src="attachments/profile%20crop.jpg" class=profile>
   </p>
+
+  <!--  Title  -->
   <p class=title align="center">
     Chris Breaux
   </p>
@@ -137,6 +161,7 @@
     Mechnical Engineering - Robotics and Autonomous Systems
   </p>
 
+<!--  Links  -->
   <div class="linkrow">
     <div class="linkcolumn" align="center">
         <a href="https://grabcad.com/chris.breaux-2"><embed src="attachments/gmail.png" class=linkicon></a>
@@ -156,14 +181,12 @@
     </div>
   </div>
 
-  
-
+<!--  Resume  -->
   <p align="center">  
     <a href="attachments/ChristopherDBreauxResume.pdf" download><embed src="attachments/ChristopherDBreauxResume.pdf" class=pdf></a>
   </p>
-
   
-
+<!--  Gallery  -->
   <div class=galleryrow>
     <div class=gallerycolumn align="center">
       <a href="attachments/profile%20crop.jpg"></a>
