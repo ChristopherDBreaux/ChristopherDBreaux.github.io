@@ -5,22 +5,40 @@
     background-repeat: no-repeat;
     background-size:cover
   }
-  .column {
-    float: left;
-    width: 25%
-  }
+  .header{
+  background-color: rgba(0, 0, 0, 0.75)
   
-  .row{
-    width: 80%;
-    max-width: 800px;
+  }
+  .headrow{
+    width: 100%;
+    max-width: 1000px;
     margin: auto
   }
-  .row:after {
+  .headrow:after {
     content: "";
     display: table;
     clear: both;
   }
+  .headcolumn {
+    float: left;
+    width: 50%
+  }
   
+  
+  .linkrow{
+    width: 80%;
+    max-width: 800px;
+    margin: auto
+  }
+  .linkrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .linkcolumn {
+    float: left;
+    width: 25%
+  }
   .profile{
     width:60%;
     max-width: 600px;
@@ -36,10 +54,19 @@
   
 </style>
 
-<head style="background-color: rgba(0, 0, 0, 0.5)">
-  <p>
-    hi
-  </p>
+<head class=header>
+  <div class=headrow>
+    <div class=headcolumn>
+      <p align="left" style="colr:white">
+        Phone
+      </p>
+    </div>
+    <div class=headcolumn>
+      <p align="right" style="colr:white">
+        Email
+      </p>
+    </div>
+  </div>
 </head>
 
 <body class=background>
@@ -47,17 +74,17 @@
     <embed src="attachments/profile%20crop.jpg" class=profile>
   </p> 
 
-  <div class="row">
-    <div class="column">
+  <div class="linkrow">
+    <div class="linkcolumn">
       <embed src="attachments/gmail.png" class=link>
     </div>
-    <div class="column">
+    <div class="linkcolumn">
       <embed src="attachments/gmail.png" class=link>
     </div>
-    <div class="column">
+    <div class="linkcolumn">
       <embed src="attachments/gmail.png" class=link>
     </div>
-    <div class="column">
+    <div class="linkcolumn">
       <embed src="attachments/gmail.png" class=link>
     </div>
   </div>
