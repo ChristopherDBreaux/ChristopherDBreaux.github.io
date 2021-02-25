@@ -64,7 +64,7 @@
     display: table;
     clear: both;
   }
-  .linkcolumn{
+  .linkcolumnGC{
     float: left;
     width: 25%;
     height: min(8vw, 80px);
@@ -74,9 +74,22 @@
     background-size: auto min(4vw, 40px);
     background-position: center center;
   }
-  .linkcolumn:hover .linkoverlay{
+  .linkcolumnGH{
+    float: left;
+    width: 25%;
+    height: min(8vw, 80px);
+    padding: 0;
+    background-image: url('attachments/GitHub_Logo.png');
+    background-repeat: no-repeat;
+    background-size: auto min(4vw, 40px);
+    background-position: center center;
+  }
+  .linkcolumnGC:hover .linkoverlay{
     opacity: 0.5;
-  }  
+  }
+  .linkcolumnGH:hover .linkoverlay{
+    opacity: 0.5;
+  } 
   .linkoverlay{
     height: min(8vw, 80px);
     width: min(8vw, 80px);
@@ -152,10 +165,10 @@
   </p>
 
   <div class="linkrow">
-    <div class="linkcolumn" align="center">
+    <div class="linkcolumnGC" align="center">
       <a href="https://grabcad.com/chris.breaux-2"><div class=linkoverlay></div></a>
     </div>
-    <div class="linkcolumn" align="center">
+    <div class="linkcolumnGH" align="center">
       <a href="https://grabcad.com/chris.breaux-2"><div class=linkoverlay></div></a>
     </div>
     <div class="linkcolumn" align="center">
