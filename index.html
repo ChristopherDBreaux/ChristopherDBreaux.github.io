@@ -96,25 +96,35 @@
   }
   .galleryrow{
     width: min(80vw, 800px);
-    height: min(40vw, 400px);
+    height: min(38vw, 380px);
     margin: min(5vw, 50px) auto
   }
   .gallerycolumn{
     float: left;
-    width: 50%;
-    height: min(40vw, 400px);
+    width: 47.5%;
+    height: min(38vw, 380px);
+    padding: 0;
+    background-image: url('attachments/profile%20crop.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+  .gallerycolumn:hover .galleryoverlay{
+    opacity: 0.5;
+  }
+  .gallerygap{
+    float: left;
+    width: 5%;
+    height: min(38vw, 380px);
     padding: 0;
     background-image: url('attachments/profile%20crop.jpg');
     background-repeat: no-repeat;
     background-size: 95% 95%;
     background-position: center center;
   }
-  .gallerycolumn:hover .galleryoverlay{
-    opacity: 0.5;
-  }
   .galleryoverlay{
-    height: 95%;
-    width: 95%;
+    height: 100%;
+    width: 100%;
     background-color: black;
     opacity: 0;
     color: white;
@@ -166,6 +176,8 @@
   <div class=galleryrow>
     <div class=gallerycolumn align="center">
       <a href="attachments/profile%20crop.jpg"><div class=galleryoverlay></div></a>
+    </div>
+    <div class=gallerygap>
     </div>
     <div class=gallerycolumn align="center">
       <a href="attachments/profile%20crop.jpg"><div class=galleryoverlay></div></a>
