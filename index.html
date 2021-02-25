@@ -69,16 +69,24 @@
     width: 25%;
     height: min(8vw, 80px);
     padding: 0;
+    background-image: url('attachments/gmail.png');
+    background-repeat: no-repeat;
+    background-size: auto min(8vw, 80px);
+    background-position: center center;
   }
-
-  .linkicon{
-    height: min(8vw, 80px);
-    padding: 0;
-  }
-  .linkicon:hover{
-    background-color: rgba(0, 0, 0, 0.5);
+  .linkcolumn:hover .linkoverlay{
+    opacity: 0.5;
   }  
-
+  .linkoverlay{
+    height: min(8vw, 80px);
+    width: min(8vw, 80px);
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    margin: auto
+  }
+  
   .pdf{
     background-color:white;
     width: min(80vw, 800px);
@@ -104,21 +112,20 @@
     padding: 0;
     background-image: url('attachments/profile%20crop.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: 95% 95%;
+    background-position: center center;
   }
-  .gallerycolumn:hover. galleryoverlay{
+  .gallerycolumn:hover .galleryoverlay{
     opacity: 0.5;
   }
   .galleryoverlay{
-    height: 100%;
-    width: 100%;
-    background-color: #008CBA;
+    height: 95%;
+    width: 95%;
+    background-color: black;
     opacity: 0;
-  }
-  .galleryoverlaytext{
     color: white;
     font-size: 20px;
-    text-align: center;
+    margins: auto
   }
 </style>
   
@@ -145,16 +152,20 @@
 
   <div class="linkrow">
     <div class="linkcolumn" align="center">
-        <a href="https://grabcad.com/chris.breaux-2"><embed src="attachments/gmail.png" class=linkicon></a>
+        <a href="https://grabcad.com/chris.breaux-2"></a>
+        <div class=linkoverlay>Hello</div>
     </div>
     <div class="linkcolumn" align="center">
-      <embed src="attachments/gmail.png" class=linkicon>
+      <a href="https://grabcad.com/chris.breaux-2"></a>
+        <div class=linkoverlay>Hello</div>
     </div>
     <div class="linkcolumn" align="center">
-      <embed src="attachments/gmail.png" class=linkicon>
+      <a href="https://grabcad.com/chris.breaux-2"></a>
+        <div class=linkoverlay>Hello</div>
     </div>
     <div class="linkcolumn" align="center">
-      <embed src="attachments/gmail.png" class=linkicon>
+      <a href="https://grabcad.com/chris.breaux-2"></a>
+        <div class=linkoverlay>Hello</div>
     </div>
   </div>
 
@@ -164,7 +175,7 @@
   
   <div class=galleryrow>
     <div class=gallerycolumn align="center">
-      <div class=galleryoverlay>Hello</div>
+      <div class=galleryoverlay></div>
     </div>
     <div class=gallerycolumn align="center">
       <a href="attachments/profile%20crop.jpg"><embed src="attachments/profile%20crop.jpg" class=galleryimage></a>
