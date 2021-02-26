@@ -64,12 +64,11 @@
     display: table;
     clear: both;
   }
-  .linkcolumnGC{
+  .linkcolumn{
     float: left;
     width: 30%;
     height: min(8vw, 80px);
     padding: 0;
-    background-image: url('attachments/grabcad.png');
     background-repeat: no-repeat;
     background-size: auto min(3vw, 30px);
     background-position: center center;
@@ -78,41 +77,9 @@
     border: 2px solid white;
     
   }
-  .linkcolumnGH{
-    float: left;
-    width: 30%;
-    height: min(8vw, 80px);
-    padding: 0;
-    background-image: url('attachments/GitHub.png');
-    background-repeat: no-repeat;
-    background-size: auto min(3vw, 30px);
-    background-position: center center;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-    border: 2px solid white;
-  }
-  .linkcolumnYT{
-    float: left;
-    width: 30%;
-    height: min(8vw, 80px);
-    padding: 0;
-    background-image: url('attachments/Youtube.png');
-    background-repeat: no-repeat;
-    background-size: auto min(3vw, 30px);
-    background-position: center center;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-    border: 2px solid white;
-  }
-  .linkcolumnGC:hover .linkoverlay{
+  .linkcolumn:hover .linkoverlay{
     opacity: 0.5;
   }
-  .linkcolumnGH:hover .linkoverlay{
-    opacity: 0.5;
-  } 
-  .linkcolumnYT:hover .linkoverlay{
-    opacity: 0.5;
-  } 
   .linkgap{
     float: left;
     width: calc(5% - 6px);
@@ -147,7 +114,6 @@
     width: 47.5%;
     height: min(38vw, 380px);
     padding: 0;
-    background-image: url('attachments/profile%20crop.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
@@ -203,15 +169,15 @@
   </p>
 
   <div class="linkrow">
-    <div class="linkcolumnGH" align="center">
+    <div class="linkcolumn" align="center" style ="background-image: url('attachments/GitHub.png');">
       <a href="https://github.com/ChristopherDBreaux"><div class=linkoverlay></div></a>
     </div>
     <div class=linkgap></div>
-    <div class="linkcolumnGC" align="center">
+    <div class="linkcolumn" align="center" style ="background-image: url('attachments/grabcad.png');">
       <a href="https://grabcad.com/chris.breaux-2"><div class=linkoverlay></div></a>
     </div>
     <div class=linkgap></div>
-    <div class="linkcolumnYT" align="center">
+    <div class="linkcolumn" align="center" style ="background-image: url('attachments/Youtube.png');">
       <a href="https://www.youtube.com/channel/UCijZ58t9ZG3zz0C_Nx5GveQ"><div class=linkoverlay></div></a>
     </div>
   </div>
@@ -221,8 +187,8 @@
   </p>
   
   <div class=galleryrow>
-    <div class=gallerycolumn align="center">
-      <a href="attachments/profile%20crop.jpg">
+    <div class=gallerycolumn align="center" style="background-image: url('attachments/UAVUGVmechanism.png');">
+      <a href="attachments/UAVUGVmechanism.png">
         <div class=galleryoverlay>
           <div class=gallerytext>
             <b>Title:</b>
@@ -232,8 +198,8 @@
       </a>
     </div>
     <div class=gallerygap></div>
-    <div class=gallerycolumn align="center">
-      <a href="attachments/profile%20crop.jpg">
+    <div class=gallerycolumn align="center" style="background-image: url('attachments/UAVUGVmechanism.jpg');">
+      <a href="attachments/UAVUGVmechanism.jpg">
         <div class=galleryoverlay>
           <div class=gallerytext>
             <b>Title:</b>
@@ -245,7 +211,7 @@
   </div>
   
   <div class=galleryrow>
-    <div class=gallerycolumn align="center">
+    <div class=gallerycolumn align="center" style="background-image: url('attachments/profile%20crop.jpg');">
       <a href="attachments/profile%20crop.jpg">
         <div class=galleryoverlay>
           <div class=gallerytext>
@@ -256,7 +222,7 @@
       </a>
     </div>
     <div class=gallerygap></div>
-    <div class=gallerycolumn align="center">
+    <div class=gallerycolumn align="center" style="background-image: url('attachments/profile%20crop.jpg');">
       <a href="attachments/profile%20crop.jpg">
         <div class=galleryoverlay>
           <div class=gallerytext>
