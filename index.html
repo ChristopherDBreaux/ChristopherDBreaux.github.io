@@ -35,8 +35,8 @@
   }
 
   .profile{
-    width: min(60vw, 600px);
-    margin:min(2vw, 20px) 0vw min(2vw, 20px) 0vw;
+    width: min(50vw, 500px);
+    margin: min(2vw, 20px) 0vw;
     border-radius: 50%;
     border: 2px solid white;
   }
@@ -51,53 +51,96 @@
   .subtitle{
     color: LightGray;
     font-size: min(3vw, 30px);
-    margin: 0vw 0vw min(2vw, 20px) 0vw;
+    margin: 0vw 0vw min(4vw, 40px) 0vw;
     padding: 0;
   }
 
   .linkrow{
     width: min(80vw, 800px);
-    margin: min(5vw, 50px) auto
+    margin: 0 auto
   }
   .linkrow:after{
     content: "";
     display: table;
     clear: both;
   }
-  .linkcolumn{
+  .linkcolumnGC{
     float: left;
-    width: 25%;
+    width: 30%;
     height: min(8vw, 80px);
     padding: 0;
-    background-image: url('attachments/gmail.png');
+    background-image: url('attachments/grabcad.png');
     background-repeat: no-repeat;
-    background-size: auto min(8vw, 80px);
+    background-size: auto min(3vw, 30px);
     background-position: center center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 2px solid white;
+    
   }
-  .linkcolumn:hover .linkoverlay{
-    opacity: 0.5;
-  }  
-  .linkoverlay{
+  .linkcolumnGH{
+    float: left;
+    width: 30%;
     height: min(8vw, 80px);
-    width: min(8vw, 80px);
+    padding: 0;
+    background-image: url('attachments/GitHub.png');
+    background-repeat: no-repeat;
+    background-size: auto min(3vw, 30px);
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  .linkcolumnYT{
+    float: left;
+    width: 30%;
+    height: min(8vw, 80px);
+    padding: 0;
+    background-image: url('attachments/Youtube.png');
+    background-repeat: no-repeat;
+    background-size: auto min(3vw, 30px);
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  .linkcolumnGC:hover .linkoverlay{
+    opacity: 0.5;
+  }
+  .linkcolumnGH:hover .linkoverlay{
+    opacity: 0.5;
+  } 
+  .linkcolumnYT:hover .linkoverlay{
+    opacity: 0.5;
+  } 
+  .linkgap{
+    float: left;
+    width: calc(5% - 6px);
+    height: min(8vw, 80px);
+    padding: 0;
+  }
+  .linkoverlay{
+    height: 100%;
+    width: 100%;
     background-color: black;
     opacity: 0;
     color: white;
     font-size: 20px;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 10px;
   }
   
   .pdf{
     background-color:white;
     width: min(80vw, 800px);
     height: min(103.5vw, 1035px);
-    margin:5vw 0vw 5vw 0vw;
+    margin: min(8vw, 80px) 0vw;
   }
+  
   .galleryrow{
     width: min(80vw, 800px);
     height: min(38vw, 380px);
-    margin: min(5vw, 50px) auto
+    margin: 0 auto min(calc(4% - 4px), 36px) auto
   }
   .gallerycolumn{
     float: left;
@@ -108,26 +151,34 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
+    border: 2px solid white;
   }
   .gallerycolumn:hover .galleryoverlay{
-    opacity: 0.5;
+    opacity: 1;
   }
   .gallerygap{
     float: left;
-    width: 5%;
+    width: calc(5% - 8px);
     height: min(38vw, 380px);
     padding: 0;
-   
   }
   .galleryoverlay{
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
-    color: white;
-    font-size: 20px;
+    margin: 0;
+    padding: 0;
     background-position: center center;
   }
+  .gallerytext{
+    padding: 5%;
+    color: white;
+    font-size: min(2vw, 20px);
+    text-align: left;
+    text-decoration: none;
+  }
+  
 </style>
   
 <body>
@@ -152,17 +203,16 @@
   </p>
 
   <div class="linkrow">
-    <div class="linkcolumn" align="center">
+    <div class="linkcolumnGH" align="center">
+      <a href="https://github.com/ChristopherDBreaux"><div class=linkoverlay></div></a>
+    </div>
+    <div class=linkgap></div>
+    <div class="linkcolumnGC" align="center">
       <a href="https://grabcad.com/chris.breaux-2"><div class=linkoverlay></div></a>
     </div>
-    <div class="linkcolumn" align="center">
-      <a href="https://grabcad.com/chris.breaux-2"><div class=linkoverlay></div></a>
-    </div>
-    <div class="linkcolumn" align="center">
-      <a href="https://grabcad.com/chris.breaux-2"><div class=linkoverlay></div></a>
-    </div>
-    <div class="linkcolumn" align="center">
-      <a href="https://grabcad.com/chris.breaux-2"><div class=linkoverlay></div></a>
+    <div class=linkgap></div>
+    <div class="linkcolumnYT" align="center">
+      <a href="https://www.youtube.com/channel/UCijZ58t9ZG3zz0C_Nx5GveQ"><div class=linkoverlay></div></a>
     </div>
   </div>
 
@@ -172,12 +222,49 @@
   
   <div class=galleryrow>
     <div class=gallerycolumn align="center">
-      <a href="attachments/profile%20crop.jpg"><div class=galleryoverlay></div></a>
+      <a href="attachments/profile%20crop.jpg">
+        <div class=galleryoverlay>
+          <div class=gallerytext>
+            <b>Title:</b>
+            <p>Description</p>
+          </div>
+        </div>
+      </a>
     </div>
-    <div class=gallerygap>
-    </div>
+    <div class=gallerygap></div>
     <div class=gallerycolumn align="center">
-      <a href="attachments/profile%20crop.jpg"><div class=galleryoverlay></div></a>
+      <a href="attachments/profile%20crop.jpg">
+        <div class=galleryoverlay>
+          <div class=gallerytext>
+            <b>Title:</b>
+            <p>Description</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class=galleryrow>
+    <div class=gallerycolumn align="center">
+      <a href="attachments/profile%20crop.jpg">
+        <div class=galleryoverlay>
+          <div class=gallerytext>
+            <b>Title:</b>
+            <p>Description</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class=gallerygap></div>
+    <div class=gallerycolumn align="center">
+      <a href="attachments/profile%20crop.jpg">
+        <div class=galleryoverlay>
+          <div class=gallerytext>
+            <b>Title:</b>
+            <p>Description</p>
+          </div>
+        </div>
+      </a>
     </div>
   </div>
 
